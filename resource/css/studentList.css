@@ -1,0 +1,84 @@
+
+.container .below-search{
+        margin-bottom: 10px;
+}
+#LISTNAME_tbl{
+    margin-bottom: 15px;
+}
+ .container .pagination-div{
+    margin-bottom: 5px;
+}
+#LISTNAME_search_txt{
+            width: 85%;
+            /*text-align: right;*/
+            /*float: left;*/
+        }
+        #selectOption{
+            width: 160px;
+            margin-right: 4px;
+        }
+        #action{
+            text-align: center;
+
+        }
+        #btnEdit{
+            margin-right: 10px;   
+        }
+        #btnView{
+            margin-right: 10px;
+
+        }
+        #LISTNAME_tbl thead tr th{
+            text-align: center;
+        }
+        #LISTNAME_tbl thead tr th:first-child,#LISTNAME_tbl tbody tr td:first-child{
+            width: 90px;
+        }
+        #LISTNAME_tbl thead tr th:nth-child(2),#LISTNAME_tbl tbody tr td:nth-child(2){
+            width: 260px;
+        }
+        #LISTNAME_tbl thead tr th:nth-child(3),#LISTNAME_tbl tbody tr td:nth-child(3){
+            width: 220px;
+        }
+        #LISTNAME_tbl tbody tr td:first-child{
+            text-align: center;
+        }
+        #LISTNAME_tbl thead tr th:nth-child(4),#LISTNAME_tbl tbody tr td:nth-child(4){
+            width: 120px;   
+        }
+        #LISTNAME_tbl tbody tr td:nth-child(4){
+            text-align: center;
+        }
+        #LISTNAME_tbl thead tr th:nth-child(5),#LISTNAME_tbl tbody tr td:nth-child(5){
+            width: 170px;   
+        }
+        #LISTNAME_tbl tbody tr td:nth-child(5){
+            text-align: center;
+        }
+        #LISTNAME_tbl thead tr th:nth-child(6),#LISTNAME_tbl tbody tr td:nth-child(6){
+            width: 155px;
+        }
+        #LISTNAME_tbl tbody tr td:nth-child(6){
+            text-align: right;
+        }
+        #LISTNAME_tbl thead tr th:last-child,#LISTNAME_tbl tbody tr td:last-child{
+            padding-left: 2px;
+            padding-right: 2px;
+            width: 180px;
+            text-align: center;
+        }
+        .divAddStudent{
+            text-align: center;
+        }
+        #confirmDel .confirmYes{
+            margin-top: 200px;
+        }
+                #view-balance,#view-balanceDec,#edit-balance,#edit-balanceDec,#add-balance,#add-balanceDec{
+            text-align: center;
+            font-weight: bold;
+            letter-spacing: .05em;
+        }
+        .open > .dropdown-menu{
+            min-width: 100px;
+            text-align: center;
+        }

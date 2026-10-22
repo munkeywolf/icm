@@ -1,0 +1,42 @@
+
+.slogan			{font-size: 54px; -webkit-text-stroke: 1px green; color: #fff; margin-top: 190px; font-weight:bold;
+					-moz-text-stroke: 1px green;}
+					
+.sub-slogan		{color: #fff; font-size: 34px;}
+.login			{background-color: rgba(255,255,255, 0.9); margin-top: 110px; padding: 8px; 
+					border-radius: 8px; border-top: 20px solid green; margin-left: 10px;}
+.horizontal-line{height:1px; background-color: #000; width: 100%; margin-bottom: 20px; background-color: #337ab7;}
+					
+/* enable absolute positioning */
+.inner-addon { 
+    position: relative; 
+	padding: 0px 0px;
+}
+
+/* align icon error */
+.left-addon .error .glyphicon {right: 0px;}
+.right-addon .error .glyphicon {left: 0px;}
+.inner-addon .error .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* style icon */
+.inner-addon > .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon > .glyphicon  { left:  0px;}
+.right-addon > .glyphicon { right: 0px;}
+
+
+/* add padding  */
+.left-addon input  { padding-left:  30px;}
+.right-addon input { padding-right: 30px; }
+
+input:hover		{background-color: #ccebff;}
+

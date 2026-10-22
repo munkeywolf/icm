@@ -1,0 +1,192 @@
+/*html,body{
+	height: auto;
+}*/
+body{
+	padding-bottom: 30px;
+}
+
+/*.modal-body .print-body{
+	padding-top: 0px;
+}*/
+.main{
+	/*padding-top: 60px;*/
+}
+.container-fluid>.row>.sidebar{
+	background-color: #1fa67a;
+}
+.main p{
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+
+#viewReport{
+	margin-bottom: 20px;
+}
+.printByContainer{
+	width: 100%;
+	float: left;
+}
+#atSchoolYear{
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.printButton{
+	margin-top: 40px;
+	width: 100%;
+	text-align:center;
+	/*float: right;*/
+}
+#printButton{
+	float: right;
+}
+.byDateFormContainer{
+	width: 100%;
+	float: bottom;
+}
+.byStudentIDContainer{
+	width: 100%;
+}
+#byDate{
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+#byStud{
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;	
+	width: 100%;
+}
+#viewByDate, .view, #viewByID{
+	margin-top: 10px;
+}
+
+.holder{
+	text-align: center;
+}
+.userD{
+	width: 100%;
+	/*text-align: center;*/
+	padding-right: 9%;
+	padding-left: 12%;
+}
+/*.studD{
+	float: left;
+}
+.semD{
+	float: right;
+}*/
+#sy{
+	margin-top: 10px;
+}
+
+#semester{
+	margin-bottom:5px;
+}
+#Date{
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+table th,table td{
+	padding:3px;
+}
+#printDiv table,th,td{
+	border:1px solid black;
+}
+
+th:first-child,td:first-child{
+	width: 50px;
+}
+th:nth-child(2),td:nth-child(2){
+	width: 100px;
+	text-align: center;
+}
+/*#byIDtable th:first-child, #byIDtable td:first-child{
+	width:
+}*/
+#byIDtable th:nth-child(2), #byIDtable td:nth-child(2){
+	width: 142px;
+}
+th:nth-child(4),td:nth-child(4){
+	text-align: center;
+	width: 100px;
+}
+th:last-child{text-align: center;}
+tr td:last-child{
+	text-align: right;
+}
+th:nth-child(3){
+	text-align: center;
+}
+
+tr td:first-child{
+	text-align: center;
+}
+#printDiv table tbody tr #st1{
+	width: 150px;
+}
+#printDiv table tbody tr #st2{
+	width: 150px;
+	text-align: center;
+}
+#printDiv table tbody tr #st4{
+	width: 160px;	
+}
+
+#printDiv p:first-child{
+	font-size: 25px;
+}
+#printDiv p:nth-child(2){
+	font-size: 20px;
+}
+#printDiv p:nth-child(3){
+	font-size: 18px;
+}
+#printDiv p:nth-child(4){
+	font-size: 16px;
+}
+#printDiv p:nth-child(5){
+	font-size: 16px;
+}
+.userD>.pull-left>p{
+	text-align: left;
+	font-size: 10px;
+}
+#printDiv .userD>.pull-left>p, #printDiv .userD>.pull-right>p{
+	text-align: left;
+	font-size: 17px;
+}
+/*@media print{
+	.printDiv{
+		page-break-before: always;
+	}
+}*/
+@media print{
+/*#printTable:last-of-type{
+	page-break-after: auto;
+page-break-before: : none;
+page-break-inside: avoid;
+}*/
+	.sidebar{display: none;}
+
+	#printDiv,#printDiv *{
+		visibility: visible !important;
+		overflow: visible !important;
+		
+	}
+	#printDiv{
+			position: relative;
+			top: 0;
+/*page-break-after: none;
+page-break-before: : none;
+page-break-inside: avoid;*/
+			/*border: 5px solid transparent;*/
+	}
+/*	#printDiv:last-child{
+		page-break-after: avoid;
+	}*/
+}

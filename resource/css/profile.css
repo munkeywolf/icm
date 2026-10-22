@@ -1,0 +1,101 @@
+
+
+.profile-picture img{border: 1px dotted #CCC;}
+.profile-picture img:hover{
+	border: 1px dotted orange;
+	cursor: pointer;
+}
+.profile-picture{
+	border:1px solid #CCC;
+	background-color:#FFF;
+	padding:4px;
+	display:inline-block;
+	max-width:100%;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	box-shadow:1px 1px 1px rgba(0,0,0,.15);
+}
+.page-header{
+	margin:0 0 30px;
+	border-bottom:1px dotted #000;
+	padding-bottom:6px;
+	padding-top:7px;
+}
+.page-header h1 small{
+	margin:0 6px;
+	font-size:14px;
+	font-weight:400;
+	color:#8089A0;
+}
+.page-header h1{
+	padding:0;
+	margin:0 8px;
+	font-size:26px;
+	font-weight:lighter;
+	color:#2679B5;
+}
+.page-header h2{
+	padding:0;
+	margin:0 8px;
+	font-size:22px;
+	font-weight:lighter;
+}
+.space-12,[class*=vspace-12]{
+	max-height:1px;
+	min-height:1px;
+	overflow:hidden;
+	margin:12px 0 11px;
+}
+.space-10,[class*=vspace-10]{
+	max-height:1px;
+	min-height:1px;
+	overflow:hidden;
+	margin:10px 0 9px;
+}
+.space-8,[class*=vspace-8]{
+	max-height:1px;
+	min-height:1px;
+	overflow:hidden;
+	margin:8px 0 7px;
+}
+.space-6,[class*=vspace-6]{
+	max-height:1px;
+	min-height:1px;
+	overflow:hidden;
+	margin:6px 0 5px;
+}
+.space-4,[class*=vspace-4]{
+	max-height:1px;
+	min-height:1px;
+	overflow:hidden;
+	margin:4px 0 3px;
+}
+
+.space-2,[class*=vspace-2]{
+	max-height:1px;
+	min-height:1px;overflow:hidden;
+	margin:2px 0 1px;
+}
+.space-0,[class*=vspace-0]{
+	max-height:1px;
+	min-height:1px;
+	overflow:hidden;
+	margin:0;
+}
+table{
+	background-color: #fff;
+}
+
+#educational thead th{
+	background-color: green;
+	color: #fff;
+}
+#parent thead th{
+	background-color: rgba(0,0,0, .8);
+	color: #fff;
+}
+#enrolled thead th{
+	background-color: green;
+	color: #fff;
+}

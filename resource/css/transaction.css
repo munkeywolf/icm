@@ -1,0 +1,474 @@
+body {
+  padding-top: 50px;
+ margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  /* Set the fixed height of the footer here */
+  height:11%;
+  background-color: #ececec;
+}
+.footer-container{
+  margin-top: 18px;
+}
+.text-muted{
+  margin: 10px 0 10px;
+}
+.jumbotron {
+  padding: 10px 0 10px 0;
+  text-align: left;
+  margin: 0px;
+}
+
+.main-container{
+	width: 100%;
+	padding: 0px;
+}
+.main-container .jumbotron p{
+	margin-bottom: 0px;
+}
+
+.container .jumbotron{
+	border-radius: 0px;
+	padding-left: 40px;	
+	padding-right: 40px;
+}
+
+.jumbotron button:first-child{
+	margin-right: 20px;
+}
+.jumbotron b{
+	text-align: right;
+}
+.timeHolder{
+	float: right;
+	font-size: 25px;
+	letter-spacing: .08em;
+}
+
+.navbar{
+	/*height: 60px;*/
+	margin-bottom: 0px;
+	/*text-align: center;*/
+}
+
+
+h3{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.studentLoggedInContainer{
+	padding:0 60px 0 60px;
+	border: 5px solid #333;
+	/*height: 498px;*/
+	height: 100%;
+	background-color: #1b926c;
+}
+.ONLINEtable{
+	background-color: white;
+}
+.table caption{
+	padding:5px 0 5px 0;
+	text-align: center;
+	color: black;
+}
+.ONLINEtable tbody,
+.ONLINEtable thead { 
+	display: block; 
+}
+.ONLINEtable thead {
+  width: 100%;
+}
+.ONLINEtable tbody {
+    height: 370px;
+    overflow-y: scroll;
+    
+}
+
+thead tr th{
+	text-align: center;	
+}
+
+#ONLINEtable tbody tr {
+	height: 37px;
+}
+#ONLINElist tr td{
+	font-size: 16px;
+}
+
+
+.ONLINEtable thead tr th:first-child,.ONLINEtable tbody tr td:first-child{
+    width: 90px;
+}
+.ONLINEtable thead tr th:nth-child(2),.ONLINEtable tbody tr td:nth-child(2) {
+    width: 110px;
+}
+.ONLINEtable thead tr th:nth-child(3),.ONLINEtable tbody tr td:nth-child(3) {
+    width: 200px;
+}
+.ONLINEtable thead tr th:nth-child(4),.ONLINEtable tbody tr td:nth-child(4) {
+    width: 517px;
+    font-weight: bold;
+}
+.ONLINEtable thead tr th:nth-child(5),.ONLINEtable tbody tr td:nth-child(5) {
+    width: 90px;
+}
+.ONLINEtable thead tr th:nth-child(6),.ONLINEtable tbody tr td:nth-child(6) {
+    width: 90px;
+}
+/*.ONLINEtable thead tr th:nth-child(7),.ONLINEtable tbody tr td:nth-child(7) {
+    width: 115px;
+}*/
+.ONLINEtable thead tr th:last-child{
+	width: 136px;
+}
+.ONLINEtable tbody tr td:last-child {
+    width: 119px;
+}
+.ONLINEtable tbody tr td:first-child,.ONLINEtable tbody tr td:nth-child(2),.ONLINEtable tbody tr td:nth-child(3),.ONLINEtable tbody tr td:nth-child(4),.ONLINEtable tbody tr td:nth-child(7)/*,.ONLINEtable tbody tr td:last-child)*/{
+	text-align: center;
+}
+.ONLINEtable tbody tr td:nth-child(5),.ONLINEtable tbody tr td:nth-child(6){
+	text-align: right;
+}
+/***************************************************************************Log In Modal******************************************************************/
+
+.modal-header{
+	background-color:#f1c40f;
+	padding: 10px 15px 10px 15px;
+	text-align: center;
+}
+.modal-title{
+	font-weight: bolder;
+}
+.login-body{
+	height:535px;
+	background-color: white;
+	padding-top: 0;
+}
+.searchForTransaction{
+	/*border: 1px solid;*/
+	margin-bottom: 0px;
+	padding-right: 10px;
+	height:250px;
+}
+.modal-body .row>hr{
+	margin-top:10px;
+	margin-bottom: 0;
+}
+
+
+.label1{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#search-field{
+	font-weight: bold;
+	letter-spacing: .08em;
+	font-size: 15px;
+	width: 100%;
+	margin-right: 10px;
+	margin-top: 3px;
+}
+#GO{
+	height: 30px;
+	margin-top: 5px;
+	width: 100%;
+}
+.tae{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.for-search{
+	padding-left: 0px;
+}
+.submitGo{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.searchForTransaction .search-table{
+	margin-top: 60px;
+	width:100%;
+}
+.searchForTransaction .search-table thead th{
+	padding:5px;
+}
+.searchForTransaction .search-table tbody td{
+	/*padding-top:5px;
+	padding-bottom:5px;*/
+	padding: 5px;
+}
+.searchForTransaction .search-table thead th:first-child{
+	width:27%;
+
+}
+.searchForTransaction .search-table tbody td:first-child{
+	font-weight: bold;
+	text-align: center;
+}
+
+.searchForTransaction .search-table thead th:last-child,.searchForTransaction .search-table tbody td:last-child{
+	width: 70%;
+	font-weight: bold;
+
+}
+
+#realTime{
+	text-align: center;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	font-size: 18px;
+}
+
+select{
+	height: 25px;
+}
+
+.studentDetailsForm .studentDetails{
+	height: 80px;
+	padding-top: 2px;
+}
+.studentDetailsForm .studentDetails p:nth-child(4),p:nth-child(5){
+	color: red;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	font-size: 18px;
+	letter-spacing: 0.03em;
+}
+
+.studentDetailsForm .studentDetails p:nth-child(6){
+	font-weight: bold;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	font-size: 18px;
+	letter-spacing: 0.03em;
+}
+
+#btnUpdateAccount{
+	margin-left: 95px;
+}
+.modal-body .studentDetailsForm hr{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.modal-body .studentDetailsForm .schoolTerm{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+}
+
+.for-term{
+	padding-right: 0px;
+}
+
+.computerNumber{
+	margin-top: 10px;
+	margin-bottom: 13px;
+	text-align: center;
+}
+.loginButton{
+	text-align: center;
+	margin-bottom: 14px;
+}
+#loginSubmit{
+	margin-right: 20px;
+}
+
+
+.transactionHistory{
+	/*margin-top: 15px;*/
+	/*border: solid 1px black;*/
+	/*width: 100%;*/
+	height: 250px;
+
+}
+/*#transactionLabel{
+	margin-top: 5px;
+}*/
+.transactionTable{
+	width: 100%;
+	text-align: center;
+}
+/*.transactionHistory thead tr th{
+	border-top: 0px;
+}
+.transactionHistory tbody tr td{
+
+}
+.transactionHistory tbody tr td{
+	border-left: 0px;
+	border-top: 0px;
+}
+
+
+.transactionHistory thead tr th:first-child{
+	border-left: 0px;
+}
+.transactionHistory thead tr th:last-child{
+	border-right: 0px;
+}
+.transactionHistory tbody tr td:last-child{
+	/*border-right: 0px;
+}*/
+.transactionHistory #TL{
+	text-align: center;
+	height: 25px;
+	margin-bottom: 3px;
+}
+.transactionTable thead, .transactionTable tbody{
+	display: block;
+}
+#studentTransactionHistory{
+	width: 100%;
+	height: 170px;
+	overflow-y:scroll; 
+}
+#transactionTable thead tr th:first-child,#transactionTable tbody tr td:first-child{
+	width: 85px;
+}
+#transactionTable thead tr th:nth-child(2),#transactionTable tbody tr td:nth-child(2){
+	width: 200px;
+}
+#transactionTable thead tr th:nth-child(3),#transactionTable tbody tr td:nth-child(3){
+	width: 200px;
+}
+#transactionTable thead tr th:nth-child(4),#transactionTable tbody tr td:nth-child(4){
+	width: 160px;
+}
+#transactionTable thead tr th:last-child{
+	width: 220px;
+}
+#transactionTable tbody tr td:last-child{
+	width: 200px;
+}
+
+#transactionTable tbody tr #notrans{
+	width: 100%;
+}
+
+/*************************************************************************************************************************************/
+.table tbody tr td {
+	padding:5px;
+}
+
+.log-details input{
+	margin: 5px;
+	height: 23px;
+	font-weight: bold;	
+	font-size: 15px;
+	letter-spacing: 1px;
+
+}
+.log-details #Ostudnum{
+	width: 110px;
+	height: 28px;
+	text-align: center;
+	background-color: indigo;
+	color: white;
+}
+.log-details #Ostudname{
+	width: 93%;	
+	height: 28px;
+	text-transform: uppercase;
+	background-color: indigo;
+	color: white;
+	padding-left: 10px;
+}
+.log-details #Ologindate{
+	width: 230px;
+	height: 28px;
+	text-align: center;
+	background-color: indigo;
+	color: white;
+}
+.log-details{
+	padding-left: 20px;
+	background-color: indigo;
+	color: white;
+}
+.log-details label{
+	display: inline-block;
+}
+
+.logout-dialog{
+	width:30%;
+
+}
+.logout-body{
+	height: 100%;
+		padding:0px;
+	border-bottom-right-radius: 5px;
+}
+.logout-footer{
+	height: 59px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	/*text-align: center;*/
+}
+.timeout{
+	padding-top:10px;
+	padding-bottom: 10px;
+	/*padding-left:32%;*/
+	text-align: center;
+	background-color: green;
+}
+#timeout{
+	width:200px; 
+	height: 30px;
+	font-weight: bold;
+	font-size: 18px;
+	/*font-weight: bold;*/
+	text-align: center;
+}
+#logoutPopup{
+	float: right;
+}
+
+#logoutButtons{
+	text-align: center;
+	padding-top:20px;
+	padding-bottom:20px; 
+	background-color: #eee;
+
+}
+#logoutButtons #logoutclick{
+	margin-right: 15px;
+	width:100px	;
+}
+#logoutButtons #dismiss{
+	width:100px;
+}
+
+#breakdown{
+	padding-top:15px;
+	padding-bottom:15px;
+	/*border: solid 1px;*/
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 100px;
+	background-color: #eee;
+
+}
+
+#breakdown #breakdown-table{
+	/*border:solid 1px;*/
+	width: 100%;
+	height: 100%;
+}
+#breakdown #breakdown-table>tbody>tr>td:first-child{
+	text-align: left;
+	font-weight: bold;
+	font-size: medium;
+}
+#breakdown #breakdown-table>tbody>tr>td:last-child{
+	font-weight: bold;
+	font-size: medium;			
+}

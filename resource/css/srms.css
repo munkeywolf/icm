@@ -1,0 +1,114 @@
+/***************** HOME PAGe **************/
+body{
+	background-color: #fff;
+}
+.jumbotron{
+	background-color: #ecf0f5;
+	border-top: 3px solid #d2d6de;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.navbar{
+	padding-left:0;
+	padding-right:0;
+	border-width: 0;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	min-height: 45px;
+	background: #438EB9;
+}
+
+.navbar .navbar-brand{
+	color:#FFF;
+	font-size:24px;
+	text-shadow:none;
+	padding-top:14px;
+	padding-bottom:10px;
+	height:auto;
+	font-family:"Lucida Handwriting";
+}
+.navbar-nav > li{
+	border:1px solid rgba(0,0,0,.2);
+	border-width:0 1px 0 0;
+}
+.navbar .navbar-nav >li a{
+	color: #fff;
+}
+.navbar .navbar-nav>li:first-child{
+	border-width:0 1px;
+}
+.navbar .navbar-nav>li>a{
+	padding-top:12px;
+	padding-bottom:11px;
+	height:45px;
+	background-color:transparent;
+	font-size:13px;
+	color:#FFF;
+	text-shadow:0 1px 0 rgba(0,0,0,.25);
+}
+.navbar .navbar-nav>li.open>a,
+.navbar .navbar-nav>li>a:focus,
+.navbar .navbar-nav>li>a:hover:not(.active){
+	background-color:rgba(0,0,0,.1)!important;
+	color:#FFF!important;
+}
+.navbar .navbar-nav>li a.active{
+	background-color: lightblue;
+	color:#000!important;
+	font-size: 14px;
+	padding-top: 12px;
+}
+.navbar .navbar-nav>li>.dropdown-menu>li>a{
+	line-height:2;
+	color: #000;
+}	
+.navbar  .navbar-brand:focus,
+.navbar .navbar-brand:hover{
+	color: silver;
+}
+.horizontal-line{
+	padding-bottom: 10px;
+	border-top:3px double silver; 
+}
+.footer-separator{
+	padding:8px;
+	line-height:36px;
+	border-top:3px double #E5E5E5;
+}
+.dropdown-yellow>li.active:hover>a,
+.dropdown-yellow>li.active>a,
+.dropdown-yellow>li:hover>a,
+.dropdown-yellow>li>a:active,
+.dropdown-yellow>li>a:focus{
+	background:#FEE188;color:#444;
+}
+.dropdown-menu.dropdown-caret:after,
+.dropdown-menu.dropdown-caret:before{
+	content:"";display:inline-block;position:absolute;
+}
+.dropdown-menu.dropdown-caret:before{
+	border-bottom:7px solid rgba(0,0,0,.2);
+	border-left:7px solid transparent;
+	border-right:7px solid transparent;
+	left:9px;top:-6px;
+}
+.dropdown-menu.dropdown-caret:after{
+	border-bottom:6px solid #FFF;
+	border-left:6px solid transparent;
+	border-right:6px solid transparent;
+	left:10px;top:-5px;
+}
+.dropdown-menu.dropdown-caret-right.dropdown-caret:before,.dropdown-menu.dropdown-menu-right.dropdown-caret:before{left:auto;right:9px}
+.dropdown-menu.dropdown-caret-right.dropdown-caret:after,.dropdown-menu.dropdown-menu-right.dropdown-caret:after{left:auto;right:10px}
+/*****caret menu end***/
+
+#studListTable thead tr th{background-color: green; color: #fff; }
+#studListTable {background-color: #fff;}
+.table-hover > tbody > tr:hover{
+  background-color: #FEE188;
+}
+
+
